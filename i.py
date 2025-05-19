@@ -8,4 +8,4 @@ def gerar_senha(tamanho=12):
 
 if __name__ == "__main__":
     tamanho = int(input("Digite o tamanho da senha: "))
-    print("Senha gerada:", gerar_senha(tamanho))
+    print("Senha gerada:", gerar_senha  (tamanho))
