@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onresize="alert('se redimensionou a tela');" >
+    <p id="texto"></p>
+   <button onclick="evento()">Clique aqui e mude de cor</button>
+    <button onclick="eventodblclick()" onmouseover="mouseover()">clique duas veses</button>
+    <br>
+    <br>
+    <div id="teste" style="margin: auto auto; width: 80%; height: 200px; background-color: blue;" onmouseover="vermelho()" onmouseout="volta_azul()"
+    ">
+    </div>
+    <br>
+    <br>
+    <input onkeyup="pressionada()" type="text" style="padding: 80px; font-size: 20px;" placeholder="Digite" id="input"
+    onchange="mudou()" value="já tem texto" onblur="evento()">
+    <select onchange="mudou()" id="itens">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+
+    <script src="./m.js"></script>
+</body>
+</html>
